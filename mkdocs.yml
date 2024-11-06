@@ -91,9 +91,8 @@ theme:
   - toc.follow
 
 nav:
-- Punklab - Завод:
-    - index.md
-- Флоу разработки:
+  - Punklab - Завод: index.md
+  - Флоу разработки:
     - development_flow/index.md
     - development_flow/system_design.md
     - development_flow/development.md
