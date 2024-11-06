@@ -69,7 +69,6 @@ theme:
       icon: material/lightbulb-outline
       name: Переключиться на тему системы
   features:
-  - navigation.indexes
   - content.code.annotate
   - content.code.copy
   # - content.code.select
@@ -82,7 +81,6 @@ theme:
   - navigation.instant.prefetch
   # - navigation.instant.preview
   - navigation.instant.progress
-  - navigation.path
   - navigation.tabs
   - navigation.tabs.sticky
   - navigation.top
@@ -101,9 +99,12 @@ nav:
     - development_flow/development.md
     - development_flow/technical_documentation.md
     - development_flow/deploy.md
-# - Инфраструктура:
-#     - infrastructure/index.md
-# - Команда:
-#     - team/index.md
+  - Гайды и руководства:
+    - Фундаментальные знания:
+      - guides/fundamental/solid.md
+    - Технологии:
+      - guides/technologies/makefile.md
+  # - Команда:
+  #     - team/index.md
 extra_css:
 - static/css/extra.css
