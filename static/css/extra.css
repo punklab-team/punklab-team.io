@@ -1,0 +1,16 @@
+[data-md-color-scheme="punklab"] {
+    --md-primary-fg-color:        #512be9;
+    --md-primary-fg-color--light: #512be9;
+    --md-primary-fg-color--dark:  #512be9;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #512be9;
+    --md-primary-fg-color--light: #512be9;
+    --md-primary-fg-color--dark:  #512be9;
+    --md-hue: 210; 
+}
+
+a.external-link::after {
+    content: "\00A0[↪]";
+}
